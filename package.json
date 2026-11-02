@@ -1,0 +1,16 @@
+{
+  "name": "css4007-ai-agents-final",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "validate": "node scripts/validate.mjs",
+    "proposal": "node scripts/validate-proposal.mjs",
+    "report": "node scripts/validate-weekly-report.mjs",
+    "activity": "node scripts/analyze-commits.mjs",
+    "grade": "node scripts/evaluate-progress.mjs"
+  }
+}

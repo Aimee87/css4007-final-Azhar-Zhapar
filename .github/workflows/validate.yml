@@ -1,0 +1,26 @@
+name: Repository checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      required_week:
+        description: Require reports through semester week 10–17 (optional)
+        required: false
+        type: string
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm test
+      - run: npm run validate
+        env:
+          REQUIRED_WEEK: ${{ inputs.required_week }}
