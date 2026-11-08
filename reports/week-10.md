@@ -2,28 +2,66 @@
 
 ## Completed Work
 
-TODO
+Forked the repository.
+
+Selected the project topic.
+
+Chose C Level difficulty.
+
+Completed the project proposal.
+
+Defined project functions and tools.
+
+Created the system architecture.
+
+Prepared the development plan for Weeks 10–17.
 
 ## Important Commits
 
-TODO
+Added project proposal.
+
+Defined project functions and tools.
+
+Created project architecture.
 
 ## Current Functionality
 
-TODO
+The project is currently in the planning stage. The project topic, functions, tools, and architecture have been defined.
 
 ## Problems Encountered
 
-TODO
+Difficulty choosing a project topic.
+
+Difficulty selecting the AI model.
+
+Understanding the project requirements.
 
 ## Solutions
 
-TODO
+Reviewed the project requirements.
+
+Selected AI Research Paper Finder as the project topic.
+
+Chose DeepSeek as the AI model.
+
+Prepared the project proposal and development plan.
 
 ## What I Learned
 
-TODO
+I learned how AI agents work.
+
+I learned how AI tools can be used.
+
+I learned how to plan an AI project.
+
+I learned the requirements of a C-Level project.
 
 ## Next Week
 
-TODO
+Set up the development environment.
+
+Install the required libraries.
+
+Configure the DeepSeek API.
+
+Start implementing the paper search function.
