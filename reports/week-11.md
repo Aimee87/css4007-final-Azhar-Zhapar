@@ -11,7 +11,10 @@
 
 ## Important Commits
 
-TODO
+- Integrated the Gemini API into the project.
+- Created the first AI Research Paper Finder notebook.
+- Implemented the first working request to the Gemini model.
+- Uploaded the Week 11 prototype to the repository.
 
 ## Current Functionality
 
