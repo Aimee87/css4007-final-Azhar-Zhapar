@@ -1,4 +1,19 @@
-// Implement any real API or local-model adapter. No provider is required.
+import { GoogleGenAI } from "@google/genai";
+
+const ai = new GoogleGenAI({
+  apiKey: process.env.GEMINI_API_KEY,
+});
+
 export async function complete(messages, tools = []) {
-  throw new Error('TODO: implement provider adapter returning {text, toolCalls: [{name, arguments}]}');
+  const prompt = messages.map(m => m.content).join("\n");
+
+  const response = await ai.models.generateContent({
+    model: "gemini-3.5-flash",
+    contents: prompt,
+  });
+
+  return {
+    text: response.text,
+    toolCalls: [],
+  };
 }
