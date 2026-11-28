@@ -22,17 +22,28 @@ The selected tool is executed automatically.
 The application displays either research paper recommendations or a paper summary.
 
 ## Problems Encountered
-
-TODO
+Difficulty understanding how tool selection should work in an AI agent.
+Challenges implementing multiple tools in a single application.
+Initially used keyword-based tool selection, which did not fully satisfy the C-Level requirements.
+Understanding how to allow the Gemini model to select the appropriate tool.
 
 ## Solutions
-
-TODO
+Implemented separate tools for paper search and paper summarization.
+Replaced keyword-based routing with Gemini-based tool selection.
+Tested tool selection using different user requests.
+Verified that both tools execute successfully and return the expected results.
+Improved the agent workflow by connecting tool selection and tool execution.
 
 ## What I Learned
-
-TODO
+- I learned how AI agents use tools to perform different tasks.
+- I learned how to implement multiple tools in a single application.
+- I learned how LLM-based tool selection works.
+- I improved my understanding of tool execution and agent workflows.
+- I gained more experience using the Gemini API for decision-making and task execution.
 
 ## Next Week
-
-TODO
+Improve the tool-calling workflow.
+Add tool error handling.
+Improve validation and reliability.
+Add additional test cases.
+Continue developing the AI Research Paper Finder.
